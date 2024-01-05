@@ -16,6 +16,11 @@
   flex-direction: column;
 }
 
+.header__image {
+  background-image: url(../images/background_header.svg);
+  position: absolute;
+}
+
 .header__title {
   max-width: 729px;
   font-size: 60px;
