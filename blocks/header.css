@@ -8,15 +8,15 @@
   background: white url(../images/background_header.svg) no-repeat center/cover;
   position: relative;
   z-index: 0;
+  box-sizing: border-box;
 }
 
 .header__image {
   position: absolute;
   width: 646px;
   height: 568px;
-  padding-top: 124px;
-  right: 0;
-  padding-right: 5px;
+  top: 124px;
+  right: 5px;
   z-index: -1;
 }
 
@@ -64,4 +64,5 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: end;
 }
